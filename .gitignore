@@ -1,7 +1,10 @@
 /*
+/*/
+/*/*/
 !.zshrc
 !.gitignore
-!Pictures
+!/Pictures/
 Pictures/tmp
 !Pictures/wall/
-
+.config/
+!.config/ranger/
