@@ -121,5 +121,6 @@ alias cls='clear'
 alias ra='ranger'
 alias vim='nvim'
 alias evi='vim ~/.config/nvim/init.vim'
+alias lzg='lazygit'
 #========================MY CONFIG END==================
 
