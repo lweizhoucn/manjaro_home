@@ -15,3 +15,5 @@ Pictures/tmp
 !.config/nvim/
 .config/nvim/*
 !.config/nvim/init.vim
+
+!.config/lazygit/
