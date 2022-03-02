@@ -6,5 +6,6 @@
 !/Pictures/
 Pictures/tmp
 !Pictures/wall/
-.config/
+!.config/
+.config/*
 !.config/ranger/
