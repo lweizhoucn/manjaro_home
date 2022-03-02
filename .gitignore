@@ -9,3 +9,4 @@ Pictures/tmp
 !.config/
 .config/*
 !.config/ranger/
+!.config/neofetch/
