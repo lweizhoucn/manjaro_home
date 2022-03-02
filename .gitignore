@@ -1,3 +1,6 @@
-*
+/*
 !.gitignore
-!Pictures/wall/*.png
+!Pictures
+Pictures/tmp
+!Pictures/wall/
+
