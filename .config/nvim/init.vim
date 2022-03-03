@@ -21,22 +21,15 @@ inoremap jk <ESC>
 
 call plug#begin('$HOME/.config/nvim/plugged')
 
-
-Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
-Plug 'ojroques/vim-scrollstatus'
-Plug 'ncm2/ncm2'
-Plug 'roxma/nvim-yarp'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'kyazdani42/nvim-web-devicons' " for file icons
-Plug 'kyazdani42/nvim-tree.lua'
 
 call plug#end()
 
 
 
-
-let g:airline_theme='term'
+" airline config 
+let g:airline_theme='molokai'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
@@ -53,7 +46,7 @@ let g:airline_symbols.branch = '⭠'
 let g:airline_symbols.readonly = '⭤'
 let g:airline_symbols.linenr = '⭡'
 
-" file tree config
-nnoremap <C-n> :NvimTreeToggle<CR>
+
+" file explore config
 
 
