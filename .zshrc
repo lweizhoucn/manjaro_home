@@ -106,9 +106,9 @@ source $ZSH/oh-my-zsh.sh
 #
 
 #========================MY CONFIG START==================
-VISUAL='/usr/bin/nvim'
-SHELL='/bin/zsh'
-EDITOR="/usr/bin/nvim"
+export VISUAL='/usr/bin/nvim'
+export SHELL='/bin/zsh'
+export EDITOR="/usr/bin/nvim"
 export IDEA_JDK='/opt/android-studio/jre'
 #export PATH="/bin/zsh:$PATH"
 #RANGER_DEVICONS_SEPARATOR='  '
