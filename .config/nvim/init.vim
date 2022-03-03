@@ -26,6 +26,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'rbgrouleff/bclose.vim'
 
+
 call plug#end()
 
 " 设置为双字宽显示，否则无法完整显示如:☆

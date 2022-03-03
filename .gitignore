@@ -10,7 +10,9 @@ Pictures/tmp
 .config/*
 
 !.config/ranger/
+.config/ranger/__pycache__
 !.config/neofetch/
+
 
 !.config/nvim/
 .config/nvim/*
