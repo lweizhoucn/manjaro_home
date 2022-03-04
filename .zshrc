@@ -115,7 +115,7 @@ export IDEA_JDK='/opt/android-studio/jre'
 #export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
 
 export RANGER_LOAD_DEFAULT_RC=FALSE
-
+export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --preview '(highlight -O ansi {} || cat {}) 2> /dev/null | head -500'"
 
 bindkey ';' autosuggest-accept
 
